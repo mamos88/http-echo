@@ -1,1 +1,1 @@
-This is the http-echo application.  The application generates a web page that shows the IP and port where the application is running.  To see how it can be used with container orchestration tools, scale up the number
+This is the http-echo application.  The application generates a web page that shows the IP and port where the application is running.  To see how it can be used with container orchestration tools, scale up the count in the nomad job spec file and re-run the pipeline.
