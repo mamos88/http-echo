@@ -11,7 +11,7 @@ trigger:
 stages:
 
 - stage: Deploy_Nomad_Job
-  displayName: Setup Step
+  displayName: Setup Step 
   jobs:
   - job:
     pool: $(agent_pool)
