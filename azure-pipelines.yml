@@ -3,7 +3,10 @@ variables:
   - group: common
   - group: nomad-variables
   
-trigger: master
+trigger: 
+  branches:
+    include:
+    - master
   
 stages:
 
