@@ -2,7 +2,7 @@ job "http-echo" {
     datacenters = ["dc-aws-1"]
 
     group "echo" {
-        count = 5
+        count = 2
         task "server" {
             driver = "docker"
         
